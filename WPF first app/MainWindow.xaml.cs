@@ -40,12 +40,6 @@ namespace WPF_first_app
         {
             Random rand = new Random();
             Brush brush = new SolidColorBrush(Color.FromRgb((byte)rand.Next(0, 256), (byte)rand.Next(0, 256), (byte)rand.Next(0, 256)));
-                
-            // SolidColorBrush myBrush = new SolidColorBrush(Windows.UI.Color.FromArgb(a, r, g, b));
-            //Color color = (Color)ColorConverter.ConvertFromString(brush.ToString());
-            // Color color = ColorTranslator.FromHtml();
-            //  Color color = colorAsInt.ToColor();
-            //Color color = ((SolidColorBrush)brush).Color;
 
             if (sender is Button btn)
             {
